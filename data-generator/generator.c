@@ -6,6 +6,8 @@
 #define N_STUDENTS (264)
 #define N_CLASSES (8)
 #define N_SECTIONS (4)
+#define N_PREFERENCES (3)
+#define N_POINTS (10)
 
 typedef enum day {
   TR, MWF
@@ -25,6 +27,24 @@ bool is_free_time(int *arr, day_t *days, int time, int index) {
     }
   }
   return exit_code;
+}
+
+void print_pref_arr(FILE *fp) {
+  int arr[N_PREFERENCES] = { 0 };
+  int sum = 0;
+  for (int i = 0; i < N_PREFERENCES; i++) {
+    int rand_n = rand() % (N_PREFERENCES + 1);
+    arr[i] = rand_n;
+    sum += rand_n;
+  }
+
+  if (sum < N_POINTS) {
+    arr[rand() % N_PREFERENCES] += N_POINTS - sum;
+  } 
+
+  for (int i = 0; i < N_PREFERENCES; i++) {
+    fprintf(fp, "|%d", arr[i]);
+  }
 }
 
 int main() {
@@ -63,6 +83,8 @@ int main() {
       }
       fprintf(fp, "-%d", classes[j]->sections[section]);
     }
+
+    print_pref_arr(fp);
     fprintf(fp, "\n");
   }
 
