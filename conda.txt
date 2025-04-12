@@ -3,3 +3,6 @@ pandas
 numpy
 django
 flask
+
+conda activate
+conda deactivate
