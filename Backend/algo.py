@@ -14,7 +14,7 @@ def parse_schedule(raw):
     }
     return name, times
 
-def eval_schedule(): # Gives us the score for a person's timetable
+def eval_schedule(raw): # Gives us the score for a person's timetable
    name, times = parse_schedule(raw)
     
     tue_thu = [times[c] for c in ["scla", "econ", "eng"] if times[c] > 0]
