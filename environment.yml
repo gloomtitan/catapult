@@ -1,0 +1,11 @@
+name: catapult
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - flask
+  - django
+  - python=3.11
+  - pandas
+  - numpy
+prefix: /opt/homebrew/Caskroom/miniconda/base/envs/catapult
