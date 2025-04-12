@@ -1,3 +1,8 @@
+# if class between 7 and 9 am, -2
+# if between 12 and 2, +2
+
+
+# too early, too late, back to back, too spread, i want a break in (this time)
 class Student:
     def __init__(self, raw_data):
         name, times = parse_schedule(raw_data)
@@ -47,11 +52,13 @@ def eval_schedule(raw):
                 scores_local[classes_sorted[i]] += 1
                 scores_local[classes_sorted[i + 1]] += 1
 
-        # Penalty for >3 classes
-        if count > 3:
+        # Penalty for blocks of 3+ classes in one day
+        if count == 3:
             for k in scores_local:
-                scores_local[k] -= 1
-
+                scores_local[k] -= 1  # mild penalty
+        elif count >= 4:
+            for k in scores_local:
+                scores_local[k] -= 2  # stronger penalty
         return scores_local
 
     scores.update(score_block(tue_thu))
