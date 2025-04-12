@@ -29,3 +29,5 @@ def eval_schedule(raw): # Gives us the score for a person's timetable
         for t in classes:
             score = 0
             if 7 <= t <= 9:
+                pass    
+    return 0
