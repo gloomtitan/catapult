@@ -3,3 +3,6 @@ class Student:
         self.id = id
         self.preferences = preferences
         self.subject_list = subject_list
+
+    @staticmethod
+    def load_students(file_path='test-cases.txt'):
