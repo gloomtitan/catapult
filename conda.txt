@@ -1,0 +1,5 @@
+List of packages installed in the conda environment
+pandas
+numpy
+django
+flask
