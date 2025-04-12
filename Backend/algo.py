@@ -20,10 +20,10 @@ def parse_schedule(raw):
 
 
 def eval_schedule(raw):
-    name, times = parse_schedule(raw)
+    person = Student(raw)
 
-    tue_thu = [times[c] for c in ["scla", "econ", "eng"] if times[c] > 0]
-    mwf = [times[c] for c in ["ma", "cs", "chem"] if times[c] > 0]
+    tue_thu = [person.times[c] for c in ["scla", "econ", "eng"] if person.times[c] > 0]
+    mwf = [person.times[c] for c in ["ma", "cs", "chem"] if person.times[c] > 0]
 
     scores = {}
 
