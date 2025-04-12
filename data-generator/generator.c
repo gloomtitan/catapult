@@ -62,6 +62,7 @@ int main() {
   srand(time(NULL));
   FILE *fp = fopen("test-cases.txt", "w");
 
+  fprintf(fp, "%d\n", N_STUDENTS);
   for (int i = 1; i <= N_STUDENTS; i++) {
     fprintf(fp, "#%d", i);
 
