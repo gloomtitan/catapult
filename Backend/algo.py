@@ -1,3 +1,10 @@
+class Student:
+    def __init__(self, raw_data):
+        name, times = parse_schedule(raw_data)
+        self.name = name
+        self.times = times
+
+
 def parse_schedule(raw):
     parts = raw.split("-")
     name = parts[0]
