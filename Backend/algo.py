@@ -5,13 +5,13 @@ def parse_schedule(raw):
     parts = raw.split('-')
     
     times = {
-        name = parts[0]
-        scla = parts[1]
-        econ = parts[2]
-        econ = parts[3]
-        engr = parts[4]
-        cs = parts[5]
-        ma = parts[6]
+        name = parts[0],
+        scla = parts[1],
+        econ = parts[2],
+        econ = parts[3],
+        engr = parts[4],
+        cs = parts[5],
+        ma = parts[6],
         chem = parts[7]
     }
     return name, times
