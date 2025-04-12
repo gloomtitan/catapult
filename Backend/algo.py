@@ -3,9 +3,8 @@
 
 def parse_schedule(raw):
     parts = raw.split('-')
-    
+    name = parts[0]
     times = {
-        "name" : int(parts[0]),
         "scla" : int(parts[1]),
         "econ" : int(parts[2]),
         "engr" : int(parts[3]),
@@ -13,10 +12,10 @@ def parse_schedule(raw):
         "ma" : int(parts[5]),
         "chem" : int(parts[6])
     }
-    return times
+    return name, times
 
 def eval_schedule(): # Gives us the score for a person's timetable
-    name, times = parse_scedule(raw)
+   name, times = parse_schedule(raw)
     
     tue_thu = [times[c] for c in ["scla", "econ", "eng"] if times[c] > 0]
     mwf = [times[c] for c in ["ma", "cs", "chem"] if times[c] > 0]
