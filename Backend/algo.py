@@ -1,6 +1,13 @@
 # name-scla-econ-eng-cs-ma-chem
 # person1-7-2-11-9-16
 
+
+class Student:
+    def __init__(self, raw_data):
+        name, times = parse_schedule(raw_data)
+        self.name = name
+        self.times = times
+
 def parse_schedule(raw):
     parts = raw.split('-')
     name = parts[0]
@@ -15,10 +22,7 @@ def parse_schedule(raw):
     return name, times
 
 def eval_schedule(raw): # Gives us the score for a person's timetable
-   name, times = parse_schedule(raw)
-    
-    tue_thu = [times[c] for c in ["scla", "econ", "eng"] if times[c] > 0]
-    mwf = [times[c] for c in ["ma", "cs", "chem"] if times[c] > 0]
+    student = Student(raw)    
     
     scores = {}
     total_score = 0
