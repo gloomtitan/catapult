@@ -236,7 +236,7 @@ def optimize_schedule(students: list[Student], max_iterations=100, improvement_t
     else:
         print("No overall improvement achieved.")
     
-    return final_score
+    return final_score, students
 
 def hval(students: list[Student]) -> int:
     """

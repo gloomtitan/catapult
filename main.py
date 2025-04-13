@@ -106,7 +106,7 @@ if __name__ == "__main__":
     max_iterations = 100
     improvement_threshold = 0.001
     
-    optimize_schedule(students, max_iterations, improvement_threshold)
+    final_score, students = optimize_schedule(students, max_iterations, improvement_threshold)
     
     final_happiness_regular = hval(students)
     final_happiness_normalized = hval(students)
