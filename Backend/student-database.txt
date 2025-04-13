@@ -5,35 +5,35 @@ Student #1
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     HIST @ 10:00  (prof‑GPA 3.5, cap 25, enrolled 25)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
 
 Student #2
   Preferences: late=2  lunch=6  gpa=2
   Sessions:
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
+    SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
 
 Student #3
   Preferences: late=6  lunch=3  gpa=1
   Sessions:
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #4
   Preferences: late=7  lunch=1  gpa=2
   Sessions:
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
-    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
 
 Student #5
   Preferences: late=2  lunch=8  gpa=0
@@ -61,12 +61,12 @@ Student #7
   Sessions:
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #8
   Preferences: late=7  lunch=3  gpa=0
@@ -74,9 +74,9 @@ Student #8
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #9
   Preferences: late=9  lunch=1  gpa=0
@@ -92,12 +92,12 @@ Student #9
 Student #10
   Preferences: late=0  lunch=3  gpa=7
   Sessions:
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
 
 Student #11
   Preferences: late=1  lunch=0  gpa=9
@@ -106,10 +106,10 @@ Student #11
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #12
   Preferences: late=9  lunch=1  gpa=0
@@ -117,10 +117,10 @@ Student #12
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #13
   Preferences: late=0  lunch=2  gpa=8
@@ -128,25 +128,25 @@ Student #13
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #14
   Preferences: late=2  lunch=7  gpa=1
   Sessions:
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #15
   Preferences: late=7  lunch=0  gpa=3
   Sessions:
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
@@ -156,10 +156,10 @@ Student #16
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
 
 Student #17
   Preferences: late=6  lunch=2  gpa=2
@@ -188,9 +188,9 @@ Student #19
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #20
   Preferences: late=1  lunch=0  gpa=9
@@ -199,9 +199,9 @@ Student #20
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #21
   Preferences: late=0  lunch=9  gpa=1
@@ -209,8 +209,8 @@ Student #21
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #22
   Preferences: late=3  lunch=1  gpa=6
@@ -236,10 +236,10 @@ Student #24
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
 
 Student #25
   Preferences: late=9  lunch=0  gpa=1
@@ -251,10 +251,10 @@ Student #25
 Student #26
   Preferences: late=2  lunch=6  gpa=2
   Sessions:
-    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
@@ -270,11 +270,11 @@ Student #27
 Student #28
   Preferences: late=3  lunch=0  gpa=7
   Sessions:
-    HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
+    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
 
 Student #29
   Preferences: late=2  lunch=0  gpa=8
@@ -290,32 +290,32 @@ Student #29
 Student #30
   Preferences: late=0  lunch=3  gpa=7
   Sessions:
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
 
 Student #31
   Preferences: late=0  lunch=1  gpa=9
   Sessions:
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #32
   Preferences: late=0  lunch=0  gpa=10
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #33
   Preferences: late=3  lunch=3  gpa=4
@@ -333,9 +333,9 @@ Student #34
   Preferences: late=2  lunch=7  gpa=1
   Sessions:
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
@@ -352,12 +352,12 @@ Student #35
 Student #36
   Preferences: late=3  lunch=7  gpa=0
   Sessions:
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
 
 Student #37
   Preferences: late=3  lunch=6  gpa=1
@@ -375,9 +375,9 @@ Student #38
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #39
@@ -386,10 +386,10 @@ Student #39
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #40
   Preferences: late=1  lunch=7  gpa=2
@@ -398,19 +398,19 @@ Student #40
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     HIST @ 10:00  (prof‑GPA 3.5, cap 25, enrolled 25)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #41
   Preferences: late=1  lunch=1  gpa=8
   Sessions:
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #42
   Preferences: late=6  lunch=1  gpa=3
@@ -437,8 +437,8 @@ Student #44
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #45
@@ -446,26 +446,26 @@ Student #45
   Sessions:
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #46
   Preferences: late=1  lunch=7  gpa=2
   Sessions:
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #47
   Preferences: late=2  lunch=2  gpa=6
   Sessions:
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #48
@@ -482,11 +482,11 @@ Student #48
 Student #49
   Preferences: late=6  lunch=2  gpa=2
   Sessions:
-    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #50
   Preferences: late=0  lunch=8  gpa=2
@@ -510,10 +510,10 @@ Student #52
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
 
 Student #53
   Preferences: late=5  lunch=3  gpa=2
@@ -537,9 +537,9 @@ Student #55
   Preferences: late=1  lunch=3  gpa=6
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #56
@@ -549,8 +549,8 @@ Student #56
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #57
@@ -578,8 +578,8 @@ Student #59
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
 
 Student #60
@@ -588,10 +588,10 @@ Student #60
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
 
 Student #61
   Preferences: late=0  lunch=3  gpa=7
@@ -601,19 +601,19 @@ Student #61
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
+    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #62
   Preferences: late=2  lunch=1  gpa=7
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #63
   Preferences: late=1  lunch=0  gpa=9
@@ -627,8 +627,8 @@ Student #63
 Student #64
   Preferences: late=7  lunch=2  gpa=1
   Sessions:
-    SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
+    SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
 
@@ -638,21 +638,21 @@ Student #65
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #66
   Preferences: late=3  lunch=6  gpa=1
   Sessions:
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #67
@@ -662,19 +662,19 @@ Student #67
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
+    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #68
   Preferences: late=6  lunch=1  gpa=3
   Sessions:
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #69
@@ -686,17 +686,17 @@ Student #69
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
-    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
+    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #70
   Preferences: late=0  lunch=1  gpa=9
   Sessions:
-    CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
-    POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #71
   Preferences: late=10  lunch=0  gpa=0
@@ -724,11 +724,11 @@ Student #73
   Sessions:
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #74
   Preferences: late=1  lunch=1  gpa=8
@@ -737,32 +737,32 @@ Student #74
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
 
 Student #75
   Preferences: late=6  lunch=2  gpa=2
   Sessions:
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #76
   Preferences: late=3  lunch=4  gpa=3
   Sessions:
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #77
   Preferences: late=2  lunch=0  gpa=8
@@ -770,10 +770,10 @@ Student #77
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #78
   Preferences: late=6  lunch=2  gpa=2
@@ -785,16 +785,16 @@ Student #78
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #79
   Preferences: late=1  lunch=8  gpa=1
   Sessions:
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
 
 Student #80
@@ -802,49 +802,49 @@ Student #80
   Sessions:
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
 
 Student #81
   Preferences: late=7  lunch=0  gpa=3
   Sessions:
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #82
   Preferences: late=1  lunch=0  gpa=9
   Sessions:
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
+    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
 
 Student #83
   Preferences: late=3  lunch=2  gpa=5
   Sessions:
-    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #84
   Preferences: late=3  lunch=0  gpa=7
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #85
   Preferences: late=9  lunch=1  gpa=0
@@ -854,8 +854,8 @@ Student #85
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #86
   Preferences: late=8  lunch=1  gpa=1
@@ -863,9 +863,9 @@ Student #86
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
@@ -873,24 +873,24 @@ Student #87
   Preferences: late=7  lunch=0  gpa=3
   Sessions:
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
-    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #88
   Preferences: late=8  lunch=1  gpa=1
   Sessions:
-    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
+    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
 
 Student #89
   Preferences: late=0  lunch=1  gpa=9
@@ -898,28 +898,28 @@ Student #89
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #90
   Preferences: late=2  lunch=3  gpa=5
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #91
   Preferences: late=1  lunch=2  gpa=7
   Sessions:
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #92
   Preferences: late=2  lunch=0  gpa=8
@@ -928,9 +928,9 @@ Student #92
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #93
   Preferences: late=1  lunch=6  gpa=3
@@ -949,18 +949,18 @@ Student #94
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
 
 Student #95
   Preferences: late=0  lunch=3  gpa=7
   Sessions:
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
 
@@ -978,9 +978,9 @@ Student #97
   Preferences: late=3  lunch=5  gpa=2
   Sessions:
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
+    CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
@@ -988,8 +988,8 @@ Student #98
   Preferences: late=1  lunch=9  gpa=0
   Sessions:
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
 
 Student #99
@@ -1031,9 +1031,9 @@ Student #103
   Sessions:
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #104
   Preferences: late=1  lunch=9  gpa=0
@@ -1043,8 +1043,8 @@ Student #104
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
-    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #105
   Preferences: late=7  lunch=3  gpa=0
@@ -1062,11 +1062,11 @@ Student #106
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
-    MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
 
 Student #107
   Preferences: late=9  lunch=1  gpa=0
@@ -1103,10 +1103,10 @@ Student #110
   Preferences: late=3  lunch=6  gpa=1
   Sessions:
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #111
@@ -1127,8 +1127,8 @@ Student #112
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
 
@@ -1138,20 +1138,20 @@ Student #113
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #114
   Preferences: late=1  lunch=1  gpa=8
   Sessions:
-    CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #115
   Preferences: late=1  lunch=1  gpa=8
@@ -1159,8 +1159,8 @@ Student #115
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #116
   Preferences: late=10  lunch=0  gpa=0
@@ -1178,20 +1178,20 @@ Student #117
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
-    SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
 
 Student #118
   Preferences: late=7  lunch=1  gpa=2
   Sessions:
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #119
@@ -1201,9 +1201,9 @@ Student #119
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #120
   Preferences: late=0  lunch=7  gpa=3
@@ -1218,11 +1218,11 @@ Student #120
 Student #121
   Preferences: late=7  lunch=2  gpa=1
   Sessions:
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
 
 Student #122
@@ -1230,18 +1230,18 @@ Student #122
   Sessions:
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
 
 Student #123
   Preferences: late=3  lunch=0  gpa=7
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
@@ -1250,20 +1250,20 @@ Student #124
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #125
   Preferences: late=0  lunch=1  gpa=9
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
 
 Student #126
   Preferences: late=6  lunch=2  gpa=2
@@ -1297,8 +1297,8 @@ Student #128
 Student #129
   Preferences: late=8  lunch=0  gpa=2
   Sessions:
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #130
@@ -1318,10 +1318,10 @@ Student #131
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #132
   Preferences: late=0  lunch=7  gpa=3
@@ -1330,8 +1330,8 @@ Student #132
     HIST @ 10:00  (prof‑GPA 3.5, cap 25, enrolled 25)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
 
 Student #133
   Preferences: late=8  lunch=0  gpa=2
@@ -1345,12 +1345,12 @@ Student #134
   Preferences: late=2  lunch=6  gpa=2
   Sessions:
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
-    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
-    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #135
   Preferences: late=8  lunch=1  gpa=1
@@ -1376,20 +1376,20 @@ Student #137
   Preferences: late=2  lunch=2  gpa=6
   Sessions:
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #138
   Preferences: late=2  lunch=6  gpa=2
   Sessions:
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
+    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #139
   Preferences: late=1  lunch=9  gpa=0
@@ -1409,8 +1409,8 @@ Student #140
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #141
   Preferences: late=3  lunch=0  gpa=7
@@ -1419,9 +1419,9 @@ Student #141
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #142
   Preferences: late=10  lunch=0  gpa=0
@@ -1438,8 +1438,8 @@ Student #143
   Preferences: late=7  lunch=1  gpa=2
   Sessions:
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
@@ -1447,11 +1447,11 @@ Student #144
   Preferences: late=0  lunch=2  gpa=8
   Sessions:
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #145
   Preferences: late=0  lunch=0  gpa=10
@@ -1459,10 +1459,10 @@ Student #145
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
 
 Student #146
   Preferences: late=7  lunch=1  gpa=2
@@ -1490,37 +1490,37 @@ Student #148
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
 
 Student #149
   Preferences: late=4  lunch=3  gpa=3
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
 
 Student #150
   Preferences: late=2  lunch=1  gpa=7
   Sessions:
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #151
   Preferences: late=1  lunch=1  gpa=8
   Sessions:
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #152
   Preferences: late=1  lunch=1  gpa=8
@@ -1537,11 +1537,11 @@ Student #152
 Student #153
   Preferences: late=1  lunch=1  gpa=8
   Sessions:
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
 
 Student #154
   Preferences: late=8  lunch=2  gpa=0
@@ -1550,28 +1550,28 @@ Student #154
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #155
   Preferences: late=5  lunch=2  gpa=3
   Sessions:
+    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #156
   Preferences: late=2  lunch=6  gpa=2
   Sessions:
-    SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
+    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #157
   Preferences: late=1  lunch=1  gpa=8
@@ -1580,16 +1580,16 @@ Student #157
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #158
   Preferences: late=3  lunch=2  gpa=5
   Sessions:
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
@@ -1599,8 +1599,8 @@ Student #159
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     HIST @ 10:00  (prof‑GPA 3.5, cap 25, enrolled 25)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #160
@@ -1609,20 +1609,20 @@ Student #160
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
 
 Student #161
   Preferences: late=3  lunch=2  gpa=5
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #162
@@ -1630,29 +1630,29 @@ Student #162
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #163
   Preferences: late=1  lunch=1  gpa=8
   Sessions:
+    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
 
 Student #164
   Preferences: late=2  lunch=0  gpa=8
   Sessions:
-    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
+    POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #165
   Preferences: late=2  lunch=5  gpa=3
@@ -1668,9 +1668,9 @@ Student #166
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     HIST @ 10:00  (prof‑GPA 3.5, cap 25, enrolled 25)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #167
@@ -1715,22 +1715,22 @@ Student #171
   Preferences: late=2  lunch=2  gpa=6
   Sessions:
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #172
   Preferences: late=8  lunch=1  gpa=1
   Sessions:
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #173
   Preferences: late=3  lunch=1  gpa=6
@@ -1739,8 +1739,8 @@ Student #173
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #174
   Preferences: late=0  lunch=3  gpa=7
@@ -1756,9 +1756,9 @@ Student #175
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
 
 Student #176
   Preferences: late=1  lunch=3  gpa=6
@@ -1782,11 +1782,11 @@ Student #178
   Preferences: late=7  lunch=1  gpa=2
   Sessions:
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #179
@@ -1806,33 +1806,33 @@ Student #180
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
-    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #181
   Preferences: late=7  lunch=0  gpa=3
   Sessions:
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
 
 Student #182
   Preferences: late=3  lunch=1  gpa=6
   Sessions:
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #183
   Preferences: late=3  lunch=6  gpa=1
@@ -1876,18 +1876,18 @@ Student #187
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #188
   Preferences: late=3  lunch=4  gpa=3
   Sessions:
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
+    MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
 
 Student #189
   Preferences: late=3  lunch=1  gpa=6
@@ -1895,8 +1895,8 @@ Student #189
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #190
   Preferences: late=7  lunch=3  gpa=0
@@ -1904,9 +1904,9 @@ Student #190
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
 
 Student #191
   Preferences: late=1  lunch=1  gpa=8
@@ -1932,10 +1932,10 @@ Student #193
   Preferences: late=6  lunch=2  gpa=2
   Sessions:
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #194
@@ -1981,16 +1981,16 @@ Student #198
   Sessions:
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #199
   Preferences: late=3  lunch=2  gpa=5
   Sessions:
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
@@ -1998,25 +1998,25 @@ Student #200
   Preferences: late=1  lunch=9  gpa=0
   Sessions:
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
+    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
 
 Student #201
   Preferences: late=2  lunch=3  gpa=5
   Sessions:
     HIST @ 10:00  (prof‑GPA 3.5, cap 25, enrolled 25)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #202
   Preferences: late=1  lunch=2  gpa=7
   Sessions:
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
@@ -2027,25 +2027,25 @@ Student #203
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #204
   Preferences: late=0  lunch=3  gpa=7
   Sessions:
+    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
-    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #205
   Preferences: late=0  lunch=3  gpa=7
   Sessions:
-    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #206
@@ -2068,8 +2068,8 @@ Student #207
 Student #208
   Preferences: late=1  lunch=7  gpa=2
   Sessions:
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
@@ -2088,8 +2088,8 @@ Student #209
 Student #210
   Preferences: late=0  lunch=7  gpa=3
   Sessions:
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
+    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
 
@@ -2099,10 +2099,10 @@ Student #211
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #212
   Preferences: late=9  lunch=0  gpa=1
@@ -2110,8 +2110,8 @@ Student #212
     HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
@@ -2119,23 +2119,23 @@ Student #213
   Preferences: late=1  lunch=1  gpa=8
   Sessions:
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
+    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
 
 Student #214
   Preferences: late=3  lunch=0  gpa=7
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
+    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #215
   Preferences: late=1  lunch=6  gpa=3
@@ -2154,48 +2154,48 @@ Student #216
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
+    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
 
 Student #217
   Preferences: late=8  lunch=1  gpa=1
   Sessions:
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #218
   Preferences: late=2  lunch=6  gpa=2
   Sessions:
+    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
-    MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #219
   Preferences: late=1  lunch=1  gpa=8
   Sessions:
-    CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
 
 Student #220
   Preferences: late=0  lunch=0  gpa=10
   Sessions:
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
-    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
+    ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
 
 Student #221
   Preferences: late=0  lunch=3  gpa=7
@@ -2203,8 +2203,8 @@ Student #221
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
 
 Student #222
   Preferences: late=2  lunch=7  gpa=1
@@ -2224,15 +2224,15 @@ Student #223
     HIST @ 10:00  (prof‑GPA 3.5, cap 25, enrolled 25)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #224
   Preferences: late=5  lunch=3  gpa=2
   Sessions:
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
@@ -2243,8 +2243,8 @@ Student #225
     HIST @ 10:00  (prof‑GPA 3.5, cap 25, enrolled 25)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
 
 Student #226
   Preferences: late=1  lunch=8  gpa=1
@@ -2260,11 +2260,11 @@ Student #226
 Student #227
   Preferences: late=5  lunch=2  gpa=3
   Sessions:
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
@@ -2275,17 +2275,17 @@ Student #228
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
     SCLA @ 10:00  (prof‑GPA 2.5, cap 50, enrolled 48)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #229
   Preferences: late=1  lunch=2  gpa=7
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #230
@@ -2301,21 +2301,21 @@ Student #230
 Student #231
   Preferences: late=0  lunch=2  gpa=8
   Sessions:
+    CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
-    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
+    ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #232
   Preferences: late=0  lunch=1  gpa=9
   Sessions:
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
-    POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #233
   Preferences: late=8  lunch=0  gpa=2
@@ -2361,8 +2361,8 @@ Student #237
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #238
@@ -2377,23 +2377,23 @@ Student #238
 Student #239
   Preferences: late=7  lunch=1  gpa=2
   Sessions:
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
 
 Student #240
   Preferences: late=8  lunch=1  gpa=1
   Sessions:
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
+    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
-    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
 
 Student #241
   Preferences: late=8  lunch=1  gpa=1
@@ -2423,33 +2423,33 @@ Student #243
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #244
   Preferences: late=1  lunch=3  gpa=6
   Sessions:
     ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #245
   Preferences: late=6  lunch=2  gpa=2
   Sessions:
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     ECON @ 13:00  (prof‑GPA 3.2, cap 100, enrolled 66)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
 
 Student #246
   Preferences: late=6  lunch=1  gpa=3
@@ -2468,9 +2468,9 @@ Student #247
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
-    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    SCLA @ 09:00  (prof‑GPA 3.7, cap 50, enrolled 50)
 
 Student #248
   Preferences: late=3  lunch=7  gpa=0
@@ -2485,13 +2485,13 @@ Student #248
 Student #249
   Preferences: late=6  lunch=2  gpa=2
   Sessions:
+    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
+    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CHEM @ 12:00  (prof‑GPA 3.3, cap 100, enrolled 74)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
     POL @ 13:00  (prof‑GPA 3.3, cap 50, enrolled 50)
-    MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
-    HIST @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
 
 Student #250
   Preferences: late=8  lunch=1  gpa=1
@@ -2509,9 +2509,9 @@ Student #251
     CS @ 10:00  (prof‑GPA 3.8, cap 25, enrolled 25)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
 
 Student #252
   Preferences: late=2  lunch=2  gpa=6
@@ -2526,8 +2526,8 @@ Student #253
   Sessions:
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
+    HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
 
 Student #254
   Preferences: late=7  lunch=2  gpa=1
@@ -2536,10 +2536,10 @@ Student #254
     HIST @ 14:00  (prof‑GPA 2.8, cap 100, enrolled 74)
     POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
     CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
-    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
     ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
     MA @ 13:00  (prof‑GPA 2.8, cap 50, enrolled 50)
     SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
 
 Student #255
   Preferences: late=3  lunch=2  gpa=5
@@ -2556,12 +2556,12 @@ Student #256
   Preferences: late=3  lunch=6  gpa=1
   Sessions:
     CHEM @ 16:00  (prof‑GPA 3.0, cap 50, enrolled 50)
-    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
-    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
-    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
-    MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
-    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
     ECON @ 14:00  (prof‑GPA 2.9, cap 50, enrolled 50)
+    SCLA @ 12:00  (prof‑GPA 3.2, cap 50, enrolled 50)
+    POL @ 09:00  (prof‑GPA 3.5, cap 100, enrolled 70)
+    ENG @ 12:00  (prof‑GPA 2.1, cap 100, enrolled 78)
+    CS @ 11:00  (prof‑GPA 2.4, cap 100, enrolled 84)
+    MA @ 08:00  (prof‑GPA 3.4, cap 100, enrolled 55)
 
 Student #257
   Preferences: late=7  lunch=2  gpa=1
@@ -2580,9 +2580,9 @@ Student #258
     POL @ 08:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #259
   Preferences: late=1  lunch=1  gpa=8
@@ -2590,19 +2590,19 @@ Student #259
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
+    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
-    MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
 
 Student #260
   Preferences: late=0  lunch=2  gpa=8
   Sessions:
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     CS @ 09:00  (prof‑GPA 3.0, cap 50, enrolled 42)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ECON @ 10:00  (prof‑GPA 3.9, cap 25, enrolled 25)
 
 Student #261
@@ -2621,20 +2621,20 @@ Student #262
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
     POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 14:00  (prof‑GPA 3.9, cap 25, enrolled 25)
     ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    CHEM @ 09:00  (prof‑GPA 4.0, cap 25, enrolled 25)
 
 Student #263
   Preferences: late=1  lunch=1  gpa=8
   Sessions:
     MA @ 07:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
-    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
     CHEM @ 11:00  (prof‑GPA 3.8, cap 50, enrolled 50)
-    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     SCLA @ 07:00  (prof‑GPA 4.0, cap 50, enrolled 50)
+    ENG @ 08:00  (prof‑GPA 3.3, cap 50, enrolled 50)
+    POL @ 10:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
 Student #264
   Preferences: late=3  lunch=0  gpa=7
@@ -2642,6 +2642,6 @@ Student #264
     HIST @ 13:00  (prof‑GPA 3.9, cap 50, enrolled 50)
     MA @ 10:00  (prof‑GPA 3.7, cap 50, enrolled 50)
     CS @ 15:00  (prof‑GPA 3.1, cap 50, enrolled 50)
-    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
     ENG @ 07:00  (prof‑GPA 3.6, cap 50, enrolled 50)
+    ECON @ 16:00  (prof‑GPA 4.0, cap 50, enrolled 50)
 
