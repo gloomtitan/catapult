@@ -3,3 +3,5 @@
 ./data-generator/generator
 .idea/
 *.iml
+__pycache__/
+*.py[cod]
