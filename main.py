@@ -12,7 +12,8 @@ import pathlib
 import sys
 from Backend.Models.Subject import Subject
 from Backend.Models.Student  import Student
-from Backend.algo import handle_time, handle_gpa, hval
+# Import the improved algorithm
+from Backend.improved_algo import optimize_schedule, hval, total_happiness_score
 import numpy as np
 
 
@@ -116,34 +117,30 @@ if __name__ == "__main__":
             output_file="Backend/sorted-students.txt",
             debug=True  # writes the file
         )
-    target_hval = 200  # stop when happiness exceeds this
-    max_iter = 2000  # hard iteration cap
-    debug_dumps = False  # set True to regenerate txt files
-    # --------------------------------------------------------------
-
-    current = hval(students)
-    print(f"Initial happiness = {current}")
-
-    for step in range(1, max_iter + 1):
-        # randomise order each pass to avoid deterministic loops
-        # np.random.shuffle(students)
-
-        for stu in students:
-            handle_time(stu)
-            handle_gpa(stu)
-
-        new_val = hval(students)
-        print(f"iter {step:02d} → happiness = {new_val}")
-        """
-        if new_val >= target_hval:
-            print("Target happiness reached.")
-            break
-        if new_val == current:
-            print("No further improvement; terminating.")
-            break
-        current = new_val
-        """
+    
+    # Calculate initial happiness using both methods
+    initial_happiness_regular = hval(students)
+    initial_happiness_normalized = total_happiness_score(students)
+    
+    print(f"Initial happiness (hval method): {initial_happiness_regular}")
+    print(f"Initial happiness (normalized method): {initial_happiness_normalized:.2f}")
+    
+    # Run optimization with our improved algorithm
+    max_iterations = 100  # Reasonable number of iterations
+    improvement_threshold = 0.001  # Stop when improvements are minimal
+    
+    optimize_schedule(students, max_iterations, improvement_threshold)
+    
+    # Calculate final happiness scores
+    final_happiness_regular = hval(students)
+    final_happiness_normalized = total_happiness_score(students)
+    
+    print(f"Final happiness (hval method): {final_happiness_regular}")
+    print(f"Final happiness (normalized method): {final_happiness_normalized:.2f}")
+    print(f"Improvement (hval method): {((final_happiness_regular - initial_happiness_regular) / initial_happiness_regular) * 100:.2f}%")
+    
     # optional reference dumps
+    debug_dumps = True  # Generate output files to see results
     if debug_dumps:
         dump_students(students)
         dump_subject_sessions(catalog)
