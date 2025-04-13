@@ -1,5 +1,7 @@
 import numpy as np
 
+from Backend.Models.Student import Student
+
 class Subject:
     """
     Represents a single course section.
