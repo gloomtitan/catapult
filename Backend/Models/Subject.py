@@ -29,6 +29,10 @@ class Subject:
             if student in self.students:
                 self.students.remove(student)
 
+        def current_enrollment(self) -> int:
+            """Return the number of students currently enrolled."""
+            return len(self.students)
+
         def __repr__(self):
             return (f"{self.parent.name}-{self.start_time} | "
                     f"cap={self.capacity} | profGPA={self.prof_gpa} | "
@@ -36,7 +40,7 @@ class Subject:
 
     # ---------- Subject ----------
     def __init__(self, name: str,
-                 section_data: List[Tuple[int, float, int]]):
+                 section_data: List[Tuple[int, float, int]]): #time, gpa, capacity
         self.name = name
         self.sessions = [
             Subject.Session(self, t, gpa, cap) for t, gpa, cap in section_data
