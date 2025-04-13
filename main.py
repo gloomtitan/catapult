@@ -1,26 +1,9 @@
-"""
-main.py  – single entry‑point for timetable‑optimizer demo
-----------------------------------------------------------
-• Builds the course‑catalog once.
-• Loads students from Backend/test-cases.txt.
-• When debug=True it writes a human‑readable dump to
-  Backend/student-database.txt
-"""
-
 from __future__ import annotations
 import pathlib
-import sys
 from Backend.Models.Subject import Subject
 from Backend.Models.Student  import Student
-# Import the improved algorithm
-from Backend.improved_algo import optimize_schedule, hval, total_happiness_score
-import numpy as np
+from Backend.algo import optimize_schedule, hval
 
-
-# ------------------------------------------------------------------ #
-# 1.  Build course catalog  (immutable after creation)
-#     Each tuple = (start_time, professor_GPA, capacity)
-# ------------------------------------------------------------------ #
 catalog = {
     "scla": Subject("scla", [(7,  4.0, 50),
                              (9,  3.7, 50),
@@ -63,10 +46,8 @@ catalog = {
                              (16, 3.0, 50)]),
 }
 
-# 2.  Load students
 students = Student.load_students("Backend/test-cases.txt", catalog)
 
-# 3.  Optional pretty‑print dump
 def dump_students(stu_list, out_path="Backend/student-database.txt") -> None:
     p = pathlib.Path(out_path)
     with p.open("w") as f:
@@ -87,7 +68,6 @@ def dump_students(stu_list, out_path="Backend/student-database.txt") -> None:
             f.write("\n")
     print(f"Wrote {len(stu_list)} students → {p}")
 
-# 3)b Dump the list of sessions of each subject along with details and student list. Students are identified by their ID number
 def dump_subject_sessions(cat: dict[str, Subject],
                           out_path="Backend/subject_session_details.txt") -> None:
     p = pathlib.Path(out_path)
@@ -104,9 +84,8 @@ def dump_subject_sessions(cat: dict[str, Subject],
             f.write("\n")
     print(f"Wrote session details → {p}")
 
-# 4.  Main block
 if __name__ == "__main__":
-    debug = False # change to true if we want to print again
+    debug = False
 
     if debug:
         dump_students(students)
@@ -115,32 +94,28 @@ if __name__ == "__main__":
         sorted_students = Student.sort_by_preference_weight(
             students,
             output_file="Backend/sorted-students.txt",
-            debug=True  # writes the file
+            debug=True
         )
     
-    # Calculate initial happiness using both methods
     initial_happiness_regular = hval(students)
-    initial_happiness_normalized = total_happiness_score(students)
+    initial_happiness_normalized = hval(students)
     
     print(f"Initial happiness (hval method): {initial_happiness_regular}")
     print(f"Initial happiness (normalized method): {initial_happiness_normalized:.2f}")
     
-    # Run optimization with our improved algorithm
-    max_iterations = 100  # Reasonable number of iterations
-    improvement_threshold = 0.001  # Stop when improvements are minimal
+    max_iterations = 100
+    improvement_threshold = 0.001
     
     optimize_schedule(students, max_iterations, improvement_threshold)
     
-    # Calculate final happiness scores
     final_happiness_regular = hval(students)
-    final_happiness_normalized = total_happiness_score(students)
+    final_happiness_normalized = hval(students)
     
     print(f"Final happiness (hval method): {final_happiness_regular}")
     print(f"Final happiness (normalized method): {final_happiness_normalized:.2f}")
     print(f"Improvement (hval method): {((final_happiness_regular - initial_happiness_regular) / initial_happiness_regular) * 100:.2f}%")
     
-    # optional reference dumps
-    debug_dumps = True  # Generate output files to see results
+    debug_dumps = True
     if debug_dumps:
         dump_students(students)
         dump_subject_sessions(catalog)

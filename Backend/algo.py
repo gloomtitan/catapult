@@ -1,119 +1,248 @@
 from Backend.Models.Student import Student
 from Backend.Models.Subject import Subject
-import numpy as np
+import random
 
 LATE = 10
+LUNCH_HOURS = [12, 13]
 
 def conflicts_schedule(sess: Subject.Session, sessions: list[Subject.Session]) -> bool:
-    exit_code = False
     for session in sessions:
-        if sess.start_time == session.start_time and sess.mwf == session.mwf:
-            exit_code = True
-            break
-    return exit_code
+        if session != sess and sess.start_time == session.start_time and sess.mwf == session.mwf:
+            return True
+    return False
 
-# called if the student wants to switch to a later start time
-def handle_time(student: Student):
+def has_lunch_break(sessions: list[Subject.Session]) -> bool:
+    class_times = [s.start_time for s in sessions]
+    return not all(hour in class_times for hour in LUNCH_HOURS)
+
+def handle_time(student: Student, students_list: list[Student]) -> bool:
+    changes_made = False
+    
+    if student.preferences["late"] == 0:
+        return False
+    
     for stud_sess in student.sessions:
-        stud_sess: Subject.Session
         if stud_sess.start_time >= LATE:
             continue
-        if stud_sess.start_time == 0:
-            continue
-        subject = stud_sess.parent
-
-        ranked_late = sorted(
-            subject.sessions,
-            key=lambda s: s.start_time,
-            reverse=True
-        )
-        for sess in ranked_late:
-            sess: Subject.Session
-            if sess.start_time < LATE or conflicts_schedule(sess, student.sessions):
-                continue
-
-            if sess.current_enrollment() < sess.capacity:
-                student.remove_session(sess)
-                sess.add_student(student)
-                break
-
-            reversed_list = reversed(list(Student.sort_by_preference_weight(sess.students)))
-            flag_break = False
-            for other in reversed_list:
-                other: Student
-                other_late: int = other.preferences["late"]
-                stud_late: int = student.preferences["late"]
-                if (other_late < stud_late or (other_late == stud_late and int(other.id[1:]) > int(student.id[1:]))):
-                    sess.remove_student(other)
-                    other.remove_session(sess)
-                    sess.add_student(student)
-                    student.add_session(sess)
-                    # to original session
-                    stud_sess.remove_student(student)
-                    student.remove_session(stud_sess)
-                    stud_sess.add_student(other)
-                    other.add_session(stud_sess)
-                    flag_break = True
-                    break
-            if flag_break:
-                break
-    pass
-
-# called if the student wants to switch to a better avg gpa section
-def handle_gpa(student: Student):
-    for stud_sess in student.sessions:
-        stud_sess: Subject.Session
-
-        if stud_sess.start_time == 0:
-            continue
-
-        subject: Subject = stud_sess.parent
-        ranked_late = sorted(
-            subject.sessions,
-            key=lambda s: s.prof_gpa,
-            reverse=True
-        )
-        for sess in ranked_late:
-            sess: Subject.Session
-
-            if sess.prof_gpa <= stud_sess.prof_gpa or conflicts_schedule(sess, student.sessions):
-                continue
             
+        subject = stud_sess.parent
+        
+        later_sessions = [s for s in subject.sessions if s.start_time > stud_sess.start_time]
+        later_sessions.sort(key=lambda s: s.start_time, reverse=True)
+        
+        for sess in later_sessions:
+            if conflicts_schedule(sess, student.sessions):
+                continue
+                
             if sess.current_enrollment() < sess.capacity:
-                student.remove_session(sess)
-                sess.add_student(student)
-                break
-
-            reversed_list = reversed(list(Student.sort_by_preference_weight(sess.students)))
-            flag_break = False
-            for other in reversed_list:
-                other: Student
-                other_gpa: int = other.preferences["gpa"]
-                stud_gpa: int = student.preferences["gpa"]
-                if (other_gpa < stud_gpa or (other_gpa == stud_gpa and int(other.id[1:]) > int(student.id[1:]))):
-                    sess.remove_student(other)
-                    other.remove_session(sess)
-                    sess.add_student(student)
-                    student.add_session(sess)
-                    # to original session
-                    stud_sess.remove_student(student)
-                    student.remove_session(stud_sess)
-                    stud_sess.add_student(other)
-                    other.add_session(stud_sess)
-                    flag_break = True
+                if swap_sessions(student, stud_sess, sess, students_list):
+                    changes_made = True
                     break
-            if flag_break:
-                break
-    pass
+            else:
+                for other in sess.students:
+                    if other.preferences["late"] < student.preferences["late"]:
+                        if not conflicts_schedule(stud_sess, other.sessions):
+                            if swap_students(student, stud_sess, other, sess, students_list):
+                                changes_made = True
+                                break
+                
+                if changes_made:
+                    break
+    
+    return changes_made
 
+def handle_gpa(student: Student, students_list: list[Student]) -> bool:
+    changes_made = False
+    
+    if student.preferences["gpa"] == 0:
+        return False
+    
+    for stud_sess in student.sessions:
+        subject = stud_sess.parent
+        
+        better_sessions = [s for s in subject.sessions if s.prof_gpa > stud_sess.prof_gpa]
+        better_sessions.sort(key=lambda s: s.prof_gpa, reverse=True)
+        
+        for sess in better_sessions:
+            if conflicts_schedule(sess, student.sessions):
+                continue
+                
+            if sess.current_enrollment() < sess.capacity:
+                if swap_sessions(student, stud_sess, sess, students_list):
+                    changes_made = True
+                    break
+            else:
+                for other in sess.students:
+                    if other.preferences["gpa"] < student.preferences["gpa"]:
+                        if not conflicts_schedule(stud_sess, other.sessions):
+                            if swap_students(student, stud_sess, other, sess, students_list):
+                                changes_made = True
+                                break
+                
+                if changes_made:
+                    break
+    
+    return changes_made
+
+def handle_lunch(student: Student, students_list: list[Student]) -> bool:
+    changes_made = False
+    
+    # Only consider students with a preference for lunch break
+    if student.preferences["lunch"] == 0:
+        return False
+        
+    # Check if student already has a lunch break
+    if has_lunch_break(student.sessions):
+        return False  # Already satisfied
+    
+    # Find all sessions during lunch hours
+    lunch_sessions = [s for s in student.sessions if s.start_time in LUNCH_HOURS]
+    
+    for lunch_sess in lunch_sessions:
+        subject = lunch_sess.parent
+        
+        # Find non-lunch hour sessions for this subject
+        alt_sessions = [s for s in subject.sessions if s.start_time not in LUNCH_HOURS]
+        
+        for sess in alt_sessions:
+            if conflicts_schedule(sess, student.sessions):
+                continue  # Skip if conflicts with other classes
+            
+            # Try to swap to the non-lunch session
+            if sess.current_enrollment() < sess.capacity:
+                # Simple move
+                if swap_sessions(student, lunch_sess, sess, students_list):
+                    changes_made = True
+                    break
+            else:
+                # Try to find someone to swap with
+                for other in sess.students:
+                    # Only consider swapping if other student cares less about lunch
+                    if other.preferences["lunch"] < student.preferences["lunch"]:
+                        # Check if the other student can move to student's current session
+                        if not conflicts_schedule(lunch_sess, other.sessions):
+                            # Perform the swap
+                            if swap_students(student, lunch_sess, other, sess, students_list):
+                                changes_made = True
+                                break
+                
+                if changes_made:
+                    break
+                    
+        if changes_made:
+            # Check if we've achieved a lunch break
+            if has_lunch_break(student.sessions):
+                break  # Success!
+    
+    return changes_made
+
+def swap_sessions(student: Student, from_sess: Subject.Session, to_sess: Subject.Session, students_list: list[Student]) -> bool:
+    initial_happiness = hval(students_list)
+    
+    student.remove_session(from_sess)
+    student.add_session(to_sess)
+    
+    new_happiness = hval(students_list)
+    
+    if new_happiness > initial_happiness:
+        return True
+    else:
+        student.remove_session(to_sess)
+        student.add_session(from_sess)
+        return False
+
+def swap_students(student1: Student, sess1: Subject.Session, student2: Student, sess2: Subject.Session, students_list: list[Student]) -> bool:
+    initial_happiness = hval(students_list)
+    
+    student1.remove_session(sess1)
+    student2.remove_session(sess2)
+    
+    student1.add_session(sess2)
+    student2.add_session(sess1)
+    
+    new_happiness = hval(students_list)
+    
+    if new_happiness > initial_happiness:
+        return True
+    else:
+        student1.remove_session(sess2)
+        student2.remove_session(sess1)
+        student1.add_session(sess1)
+        student2.add_session(sess2)
+        return False
+
+def optimize_schedule(students: list[Student], max_iterations=100, improvement_threshold=0.0001):
+    initial_score = hval(students)
+    current_score = initial_score
+    print(f"Initial happiness score: {initial_score}")
+    
+    # Keep track of scores
+    score_history = [current_score]
+    plateau_count = 0
+    
+    # Sort students by total preference weight (most opinionated first)
+    sorted_students = sorted(
+        students,
+        key=lambda s: s.preference_weight(),
+        reverse=True
+    )
+    
+    for iteration in range(1, max_iterations + 1):
+        total_changes = 0
+        
+        # Apply all three handlers in sequence for each student
+        for student in sorted_students:
+            if handle_time(student, students):
+                total_changes += 1
+                
+            if handle_gpa(student, students):
+                total_changes += 1
+                
+            if handle_lunch(student, students):
+                total_changes += 1
+        
+        # Calculate new happiness score
+        new_score = hval(students)
+        improvement = (new_score - current_score) / current_score if current_score > 0 else 0
+        
+        print(f"Iteration {iteration}: happiness = {new_score} (change: {improvement:.4f}, changes: {total_changes})")
+        
+        if abs(improvement) < improvement_threshold:
+            plateau_count += 1
+        else:
+            plateau_count = 0
+            
+        if plateau_count >= 5:
+            print(f"Optimization plateaued after {iteration} iterations")
+            break
+            
+        # Stop if no changes were made
+        if total_changes == 0:
+            print("No further improvements possible")
+            break
+            
+        current_score = new_score
+        score_history.append(current_score)
+        
+        if iteration % 5 == 0:
+            random.shuffle(sorted_students)
+    
+    final_score = hval(students)
+    print(f"Optimization complete. Final happiness: {final_score}")
+    
+    if final_score > initial_score:
+        improvement_pct = ((final_score - initial_score) / initial_score) * 100
+        print(f"Total improvement: {improvement_pct:.2f}%")
+    else:
+        print("No overall improvement achieved.")
+    
+    return final_score
 
 def hval(students: list[Student]) -> int:
     """
+    Original happiness function from the algorithm.
     Happiness = Σ over students Σ over sessions
                 pref_value * rank
-    rank is the 1‑based position (ascending) of that session
-    within its course when sorted by the criterion that matches
-    the preference (time for 'late', prof_gpa for 'gpa').
     """
     total = 0
     for stu in students:
@@ -131,9 +260,10 @@ def hval(students: list[Student]) -> int:
                 rank = ordered.index(sess) + 1
                 total += p["gpa"] * rank
 
-        # lunch‑gap happiness (1 if gap, else 0)
         if p["lunch"]:
-            has_gap = any(s.start_time not in (12, 13) for s in stu.sessions)
+            class_times = [s.start_time for s in stu.sessions]
+            has_gap = not all(hour in class_times for hour in LUNCH_HOURS)
             if has_gap:
-                total += 0.1 * p["lunch"]
-        return total
+                total += p["lunch"]
+                
+    return total 
