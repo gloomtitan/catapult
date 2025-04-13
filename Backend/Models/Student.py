@@ -5,7 +5,7 @@ from .Subject import Subject      # relative import inside Backend.Models
 class Student:
     """
     id            : string  (e.g. '#1')
-    preferences   : dict    {'late': int, 'lunch': int, 'gpa': int}
+    preferences   : dict    {'late': int, bool 'lunch': int, bool 'gpa': int, bool}
     subject_list  : list[Subject]
     """
     SUBJECT_NAMES = ["scla", "econ", "eng", "cs", "ma", "chem", "pol", "hist"]
@@ -43,9 +43,9 @@ class Student:
         ]
 
         preferences = {
-            "late" : int(late),
-            "lunch": int(lunch),
-            "gpa"  : int(gpa)
+            "late": {"value": int(late), "sorted": False},
+            "lunch": {"value": int(lunch), "sorted": False},
+            "gpa": {"value": float(gpa), "sorted": False},
         }
 
         return Student(student_id, preferences, subject_list)
