@@ -15,3 +15,11 @@ class Subject:
 
     def __repr__(self):
         return f"{self.name}@{self.session.tolist()} | GPA {self.gpa.tolist()}"
+
+    @staticmethod
+    def read_section_list(file_name: str = "sections.txt"):
+        pass
+
+
+if __name__ == "__main__":
+    subjects = Subject.read_section_list()
