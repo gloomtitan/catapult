@@ -4,6 +4,8 @@ and (optionally) writes the result to Backend/sorted-students.txt
 """
 
 import sys, pathlib
+import numpy as np
+
 sys.path.append(str(pathlib.Path(__file__).resolve().parents[1]))   # add project root
 
 from Backend.Models.Student import Student
@@ -29,7 +31,7 @@ def sort_preference_weight(
 
         print(f"Wrote {len(sorted_students)} students → {output_file}")
 
-    return sorted_students
+    return np.array(sorted_students)
 
 
 if __name__ == "__main__":
