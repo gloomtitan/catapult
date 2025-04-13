@@ -48,6 +48,20 @@ void print_pref_arr(FILE *fp) {
   }
 }
 
+void print_subjects(class_t **arr) {
+  FILE *fp = fopen("sections.txt", "w");
+
+  for (int i = 0; i < N_CLASSES; i++) {
+    for (int j = 0; j < N_SECTIONS; j++) {
+      fprintf(fp, "-%d", arr[i]->sections[j]);
+    }
+    fprintf(fp, "\n");
+  }
+
+  fclose(fp);
+  fp = NULL;
+}
+
 int main() {
   class_t scla = { .sections = { 7, 9, 10, 12 }, { 50, 50, 50, 50 } };
   class_t econ = { .sections = { 10, 13, 14, 16 }, { 25, 100, 50, 50 } };
@@ -92,6 +106,7 @@ int main() {
 
   fclose(fp);
   fp = NULL;
+  print_subjects(classes);
   return 0;
 }
 

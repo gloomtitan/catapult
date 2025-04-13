@@ -2,13 +2,7 @@ from Backend.Models.Student import Student
 from sort_students import sort_preference_weight
 import numpy as np
 
-def handle_late():
-    pass
-
-def handle_break():
-    pass
-
-def handle_gpa():
+def handle(key: str):
     pass
 
 def algo_main(students: np.ndarray):
