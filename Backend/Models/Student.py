@@ -56,6 +56,55 @@ class Student:
                 students.append(Student.from_line(line, catalog))
         return students
 
+    def add_session(self, sess: Subject.Session) -> bool:
+        """
+        Enrol this student in the given Session.
+        Returns True if successful, False if the session is full
+        or already present.
+        """
+        if sess in self.sessions:
+            return False  # already enrolled
+        if sess.add_student(self):  # uses Session helper
+            self.sessions.append(sess)
+            return True
+        return False  # session full
+
+    def remove_session(self, sess: Subject.Session) -> bool:
+        """
+        Drop this student from the given Session.
+        Returns True on success, False if the session was not found.
+        """
+        if sess not in self.sessions:
+            return False
+        self.sessions.remove(sess)
+        sess.remove_student(self)  # uses Session helper
+        return True
+
+    @staticmethod
+    def sort_by_preference_weight(students,
+                                  output_file: str = "Backend/sorted-students.txt",
+                                  debug: bool = False):
+        """
+        Sort a list / NumPy array of Student objects in descending order
+        of preference_weight.  Optionally writes the ranking to a file.
+        """
+        import numpy as np
+
+        sorted_stu = sorted(
+            students,
+            key=lambda s: s.preference_weight(),
+            reverse=True
+        )
+
+        if debug:
+            with open(output_file, "w") as f:
+                for stu in sorted_stu:
+                    f.write(f"{stu.id}  total={stu.preference_weight():.2f}\n")
+            print(f"Wrote {len(sorted_stu)} students → {output_file}")
+
+        return np.array(sorted_stu, dtype=object)
+
+
     def __repr__(self):
         codes = [f"{s.parent.name}-{s.start_time}" for s in self.sessions]
         return f"{self.id}: {codes} | prefW={self.preference_weight():.1f}"

@@ -12,6 +12,7 @@ import pathlib
 import sys
 from Backend.Models.Subject import Subject
 from Backend.Models.Student  import Student
+from Backend.sort_students import sort_preference_weight
 
 # ------------------------------------------------------------------ #
 # 1.  Build course catalog  (immutable after creation)
@@ -107,6 +108,12 @@ if __name__ == "__main__":
     if debug:
         dump_students(students)  # already present
         dump_subject_sessions(catalog)  # ← add this li
+
+        sorted_students = Student.sort_by_preference_weight(
+            students,
+            output_file="Backend/sorted-students.txt",
+            debug=True  # writes the file
+        )
 
     # Example: call sort_preference_weight if desired
     # from Backend.sort_students import sort_preference_weight

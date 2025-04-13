@@ -1,3 +1,5 @@
+# NOW OBSOLETE. NOT DELETING JUST FOR REFERENCE
+
 """
 Reads test-cases.txt, sorts students by descending preference weight,
 and (optionally) writes the result to Backend/sorted-students.txt
