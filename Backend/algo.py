@@ -1,6 +1,5 @@
 from Backend.Models.Student import Student
 from Backend.Models.Subject import Subject
-from sort_students import sort_preference_weight
 import numpy as np
 
 LATE = 10
@@ -19,13 +18,14 @@ def handle_time(student: Student):
         stud_sess: Subject.Session
         if stud_sess.start_time >= LATE:
             continue
-
+        if stud_sess.start_time == 0:
+            continue
         subject = stud_sess.parent
 
         ranked_late = sorted(
             subject.sessions,
             key=lambda s: s.start_time,
-            reverse=False
+            reverse=True
         )
         for sess in ranked_late:
             sess: Subject.Session
@@ -33,11 +33,11 @@ def handle_time(student: Student):
                 continue
 
             if sess.current_enrollment() < sess.capacity:
-                sess.add_student(student)
                 student.remove_session(sess)
+                sess.add_student(student)
                 break
 
-            reversed_list = reversed(Student.sort_by_preference_weight(sess.students))
+            reversed_list = reversed(list(Student.sort_by_preference_weight(sess.students)))
             flag_break = False
             for other in reversed_list:
                 other: Student
@@ -64,11 +64,14 @@ def handle_gpa(student: Student):
     for stud_sess in student.sessions:
         stud_sess: Subject.Session
 
+        if stud_sess.start_time == 0:
+            continue
+
         subject: Subject = stud_sess.parent
         ranked_late = sorted(
             subject.sessions,
             key=lambda s: s.prof_gpa,
-            reverse=False
+            reverse=True
         )
         for sess in ranked_late:
             sess: Subject.Session
@@ -77,11 +80,11 @@ def handle_gpa(student: Student):
                 continue
             
             if sess.current_enrollment() < sess.capacity:
-                sess.add_student(student)
                 student.remove_session(sess)
+                sess.add_student(student)
                 break
 
-            reversed_list = reversed(Student.sort_by_preference_weight(sess.students))
+            reversed_list = reversed(list(Student.sort_by_preference_weight(sess.students)))
             flag_break = False
             for other in reversed_list:
                 other: Student
@@ -103,3 +106,34 @@ def handle_gpa(student: Student):
                 break
     pass
 
+
+def hval(students: list[Student]) -> int:
+    """
+    Happiness = Σ over students Σ over sessions
+                pref_value * rank
+    rank is the 1‑based position (ascending) of that session
+    within its course when sorted by the criterion that matches
+    the preference (time for 'late', prof_gpa for 'gpa').
+    """
+    total = 0
+    for stu in students:
+        p = stu.preferences
+        for sess in stu.sessions:
+            subj = sess.parent
+
+            if p["late"]:
+                ordered = sorted(subj.sessions, key=lambda s: s.start_time)
+                rank = ordered.index(sess) + 1
+                total += p["late"] * rank
+
+            if p["gpa"]:
+                ordered = sorted(subj.sessions, key=lambda s: s.prof_gpa)
+                rank = ordered.index(sess) + 1
+                total += p["gpa"] * rank
+
+        # lunch‑gap happiness (1 if gap, else 0)
+        if p["lunch"]:
+            has_gap = any(s.start_time not in (12, 13) for s in stu.sessions)
+            if has_gap:
+                total += 0.1 * p["lunch"]
+        return total

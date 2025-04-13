@@ -12,7 +12,9 @@ import pathlib
 import sys
 from Backend.Models.Subject import Subject
 from Backend.Models.Student  import Student
-from Backend.sort_students import sort_preference_weight
+from Backend.algo import handle_time, handle_gpa, hval
+import numpy as np
+
 
 # ------------------------------------------------------------------ #
 # 1.  Build course catalog  (immutable after creation)
@@ -103,19 +105,51 @@ def dump_subject_sessions(cat: dict[str, Subject],
 
 # 4.  Main block
 if __name__ == "__main__":
-    debug = True          # ← toggle to False to skip file dump
+    debug = False # change to true if we want to print again
 
     if debug:
-        dump_students(students)  # already present
-        dump_subject_sessions(catalog)  # ← add this li
+        dump_students(students)
+        dump_subject_sessions(catalog)
 
         sorted_students = Student.sort_by_preference_weight(
             students,
             output_file="Backend/sorted-students.txt",
             debug=True  # writes the file
         )
+    target_hval = 200  # stop when happiness exceeds this
+    max_iter = 2000  # hard iteration cap
+    debug_dumps = False  # set True to regenerate txt files
+    # --------------------------------------------------------------
 
-    # Example: call sort_preference_weight if desired
-    # from Backend.sort_students import sort_preference_weight
-    # sort_preference_weight(debug=True)
+    current = hval(students)
+    print(f"Initial happiness = {current}")
+
+    for step in range(1, max_iter + 1):
+        # randomise order each pass to avoid deterministic loops
+        # np.random.shuffle(students)
+
+        for stu in students:
+            handle_time(stu)
+            handle_gpa(stu)
+
+        new_val = hval(students)
+        print(f"iter {step:02d} → happiness = {new_val}")
+        """
+        if new_val >= target_hval:
+            print("Target happiness reached.")
+            break
+        if new_val == current:
+            print("No further improvement; terminating.")
+            break
+        current = new_val
+        """
+    # optional reference dumps
+    if debug_dumps:
+        dump_students(students)
+        dump_subject_sessions(catalog)
+        Student.sort_by_preference_weight(
+            students,
+            output_file="Backend/sorted-students.txt",
+            debug=True
+        )
 

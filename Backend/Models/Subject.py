@@ -1,9 +1,8 @@
 from __future__ import annotations
 from typing import List, Tuple, TYPE_CHECKING
-from Student import Student
 
-# if TYPE_CHECKING:                       # avoids runtime circular import
-  #  from Backend.Models.Student import Student
+if TYPE_CHECKING:                       # avoids runtime circular import
+    from Backend.Models.Student import Student
 
 
 class Subject:
@@ -28,7 +27,7 @@ class Subject:
                 return True
             return False
 
-        def remove_student(self, student: "Student"):
+        def remove_student(self, student: Student):
             if student in self.students:
                 self.students.remove(student)
 
@@ -43,7 +42,7 @@ class Subject:
 
     # ---------- Subject ----------
     def __init__(self, name: str,
-                 section_data: List[Tuple[int, float, int]]): #time, gpa, capacity
+                 section_data: List[Tuple[int, float, int]]):
         self.name = name
         if self.name == "scla" or self.name == "econ" or self.name == 'engr':
             self.mwf = False
@@ -53,7 +52,7 @@ class Subject:
             Subject.Session(self, t, gpa, cap, self.mwf) for t, gpa, cap in section_data
         ]
 
-    def get_session(self, start_time: int) -> "Subject.Session | None":
+    def get_session(self, start_time: int) -> Subject.Session | None:
         for s in self.sessions:
             if s.start_time == start_time:
                 return s
