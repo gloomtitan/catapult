@@ -1,7 +1,6 @@
 import numpy as np
 from .Subject import Subject      # relative import inside Backend.Models
 
-
 class Student:
     """
     id            : string  (e.g. '#1')
@@ -13,7 +12,7 @@ class Student:
     def __init__(self, student_id, preferences, subject_list):
         self.id            = student_id
         self.preferences   = preferences
-        self.subject_list  = subject_list
+        self.subject_list: np.ndarray  = subject_list
 
     # ---------- preference weight ----------
     def preference_weight(self) -> float:
@@ -41,6 +40,7 @@ class Student:
             Subject(name, [time], [0.0])          # default GPA per session
             for name, time in zip(Student.SUBJECT_NAMES, class_times)
         ]
+        subject_list = np.array(subject_list)
 
         preferences = {
             "late": {"value": int(late), "sorted": False},
@@ -72,3 +72,4 @@ class Student:
     # ---------- nice print ----------
     def __repr__(self):
         return f"{self.id} | Pref‑wgt={self.preference_weight():.2f}"
+
