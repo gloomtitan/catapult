@@ -1,31 +1,36 @@
 """
 Reads test-cases.txt, sorts students by descending preference weight,
-and writes the result to data-generator/sorted-students.txt
+and (optionally) writes the result to Backend/sorted-students.txt
 """
+
+import sys, pathlib
+sys.path.append(str(pathlib.Path(__file__).resolve().parents[1]))   # add project root
+
 from Backend.Models.Student import Student
 
+
 def sort_preference_weight(
-    input_file: str = "test-cases.txt",
-    output_file: str = "sorted-students.txt",
+    input_file: str = "Backend/test-cases.txt",
+    output_file: str = "Backend/sorted-students.txt",
     debug: bool = False
 ):
     students = Student.load_students(input_file)
 
-    # sort by descending weight
     sorted_students = sorted(
-        students,
-        key=lambda s: s.preference_weight(),
-        reverse=True
+        students, key=lambda s: s.preference_weight(), reverse=True
     )
 
-    if (debug):
+    if debug:
         with open(output_file, "w") as f:
             for stu in sorted_students:
-                f.write(f"{stu.id} {stu.preference_weight():.2f}\n")
+                p = stu.preferences
+                f.write(f"{stu.id}  total={stu.preference_weight():.2f}\n")
+                # f.write(f"    late={p['late']}  lunch={p['lunch']}  gpa={p['gpa']}\n")
 
         print(f"Wrote {len(sorted_students)} students → {output_file}")
+
     return sorted_students
 
 
 if __name__ == "__main__":
-    sort_preference_weight()
+    sort_preference_weight(debug=True)   # set True if you want the file output

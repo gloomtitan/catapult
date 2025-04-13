@@ -52,7 +52,7 @@ class Student:
 
     # ---------- bulk loader ----------
     @staticmethod
-    def load_students(file_path: str = "data-generator/test-cases.txt"):
+    def load_students(file_path: str = "Backend/test-cases.txt"):
         """
         Reads the first line as the count, then that many student lines.
         Returns a NumPy object array of Student instances.
