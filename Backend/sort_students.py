@@ -6,7 +6,8 @@ from Backend.Models.Student import Student
 
 def sort_preference_weight(
     input_file: str = "test-cases.txt",
-    output_file: str = "sorted-students.txt"
+    output_file: str = "sorted-students.txt",
+    debug: bool = False
 ):
     students = Student.load_students(input_file)
 
@@ -17,11 +18,12 @@ def sort_preference_weight(
         reverse=True
     )
 
-    with open(output_file, "w") as f:
-        for stu in sorted_students:
-            f.write(f"{stu.id} {stu.preference_weight():.2f}\n")
+    if (debug):
+        with open(output_file, "w") as f:
+            for stu in sorted_students:
+                f.write(f"{stu.id} {stu.preference_weight():.2f}\n")
 
-    print(f"Wrote {len(sorted_students)} students → {output_file}")
+        print(f"Wrote {len(sorted_students)} students → {output_file}")
     return sorted_students
 
 
