@@ -30,11 +30,16 @@ def handle_time(student: Student):
                 other: Student
                 other_late: int = other.preferences["late"]
                 stud_late: int = student.preferences["late"]
-                if (other_late < stud_late or (other_late == stud_late and int(other.id[1:]) < int(student.id[1:]))):
-                    sess.add_student(student)
+                if (other_late < stud_late or (other_late == stud_late and int(other.id[1:]) > int(student.id[1:]))):
                     sess.remove_student(other)
-                    student.add_session(sess)
                     other.remove_session(sess)
+                    sess.add_student(student)
+                    student.add_session(sess)
+                    # to original session
+                    stud_sess.remove_student(student)
+                    student.remove_session(stud_sess)
+                    stud_sess.add_student(other)
+                    other.add_session(stud_sess)
                     flag_break = True
                     break
             if flag_break:
@@ -46,7 +51,21 @@ def handle_gpa(student: Student):
     for stud_sess in student.sessions:
         stud_sess: Subject.Session
         subject: Subject = stud_sess.parent
-        
+        for sess in subject.sessions:
+            sess: Subject.Session
+
+            if sess.prof_gpa <= stud_sess.prof_gpa:
+                continue
+            
+            if sess.current_enrollment() < sess.capacity:
+                sess.add_student(student)
+                student.remove_session(sess)
+                break
+
+            reversed_list = reversed(Student.sort_by_preference_weight(sess.students))
+            flag_break = False
+            for other in reversed_list:
+                pass
     pass
 
 def algo_main(students: np.ndarray):
