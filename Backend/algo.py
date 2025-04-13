@@ -1,8 +1,40 @@
 from Backend.Models.Student import Student
+from Backend.Models.Subject import Subject
 from sort_students import sort_preference_weight
 import numpy as np
 
-def handle(key: str):
+LATE = 10
+
+# called if the student wants to switch to a later start time
+def handle_time(student: Student):
+    for stud_sess in student.sessions:
+        stud_sess: Subject.Session
+        if stud_sess.start_time >= LATE:
+            continue
+
+        subject = stud_sess.parent
+
+        for sess in subject.sessions:
+            sess: Subject.Session
+            if sess.start_time < LATE:
+                continue
+
+            if sess.current_enrollment() < sess.capacity:
+                sess.add_student(student)
+                student.remove_session(sess)
+                break
+
+            reversed_list = reversed(Student.sort_by_preference_weight(sess.students))
+            for other in reversed_list:
+                other: Student
+                other_late: int = other.preferences["late"]
+                stud_late: int = other.preferences["late"]
+                if (other_late < stud_late or (other_late == stud_late and int(other.id[1:]) < int(student.id[1:]))):
+                    sess.add_student(student)
+                    sess.remove_student(other)
+                    student.add_session(sess)
+                    other.remove_session(sess)
+                    break
     pass
 
 def algo_main(students: np.ndarray):
